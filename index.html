@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Zest4's 8x8 Demo</title>
+		<title>Zest4's 8x8 Demo</title>  <!-- Web Page Tab Name. -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<style>
         body {
@@ -14,8 +14,8 @@
 
     <nav>
       <ul id="navbar" style="list-style: none; text-align: right;">
-        <li><div id="__8x8-chat-button-container-script_142418536967daddd3139067.73299394"></div></li>
-	<li style="float:left"><a href="https://githubmatthewmarchantcouk.github.io/Zest-4-Demo/co-browse/"><img src="toplhlogo.png"></a></li>
+        <li><div id="__8x8-chat-button-container-script_142418536967daddd3139067.73299394"></div></li> <!-- chat button id. -->
+	<li style="float:left"><a href="https://githubmatthewmarchantcouk.github.io/Zest-4-Demo/co-browse/"><img src="toplhlogo.png"></a></li> <!-- the top left hand logo and makes the logo a button to go to the cobrowse page. -->
 			
       </ul>
     </nav>
@@ -77,7 +77,7 @@
 	
 <script>
 window.CoBrowsingCustomStrings = {
-  "popup-title": "Zest4's Co-browsing",
+  "popup-title": "Zest4's Co-browsing", <!-- CoBrowse name. -->
   "popup-close": "X",
   "popup-start-information": "Please Click Start to initialize the Co-browsing session and pass the session ID below to the Agent.",
   "popup-sync-information": "You may have open another page that is currently being synchronized. Click Synchronize to synchronize this page instead.",
@@ -110,7 +110,7 @@ b=i.getElementsByTagName(g)[0];b.parentNode.insertBefore(o,b);
     
 <div id="welcome-section" >
       
-<img src="Pic2.PNG">
+<img src="Pic2.PNG"> <!-- Top Picture. -->
 
     <h1></h1>
     <p></p>
@@ -118,7 +118,7 @@ b=i.getElementsByTagName(g)[0];b.parentNode.insertBefore(o,b);
 
 <div id="welcome-section2" >
       
-<img src="Pic3.PNG">
+<img src="Pic3.PNG"> <!-- Bottom Picture. -->
 
     <h1></h1>
     <p></p>
@@ -227,15 +227,7 @@ table, td, th {
 </style>
 </head>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-        if (!window.coBrowsingInstance) {
-            console.error("coBrowsingInstance not initialized");
-        }
-    }, 2000);
-});
-</script>	
+	
 	
 <body>
 
@@ -245,11 +237,11 @@ document.addEventListener("DOMContentLoaded", function () {
   <form name="WebCallBack" action="https://vcc-eu10.8x8.com/SC/webcallback.php" method="get"  
         oninput="extTransactionData.value = '[Name|' + fname.value +' '+ lname.value + '][Location|' + location.value + '][Reason|' + reason.value +']'">
     <input type="hidden" name="extTransactionData"/>
-    <input type="hidden" name="tenant" value="zest4x01"/>
-    <input type="hidden" name="token" value="6c593095111b09d2ecf1510d32ebf9bddfd48c77be1afb85ce6dc8313719ba1c"/>
-    <input type="hidden" name="channel_number" value="441604263652"/>
+    <input type="hidden" name="tenant" value="zest4x01"/>  <!-- Tenant Name. -->
+    <input type="hidden" name="token" value="6c593095111b09d2ecf1510d32ebf9bddfd48c77be1afb85ce6dc8313719ba1c"/>  <!-- Action Tokes. -->
+    <input type="hidden" name="channel_number" value="441604263652"/> <!-- Channel Number. -->
     <input type="hidden" name="callback_type" value="1"/>
-    <input type="hidden" name="queue_id" value="121"/>
+    <input type="hidden" name="queue_id" value="121"/> <!-- Queue ID. -->
     <input type="hidden" name="expiration" value="1200"/><br/>
     <table style="background-color:#FFFFFF;">
       <tr><td>First name:</td><td> <input type="text" name="fname"/></td></tr>
