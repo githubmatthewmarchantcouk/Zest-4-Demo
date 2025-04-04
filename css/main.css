@@ -21,7 +21,7 @@ body {
   text-align: right;
   width: 100%;
   background-color: #FFFFFF;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,1);
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em;
 }
