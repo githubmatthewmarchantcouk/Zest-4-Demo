@@ -1,11 +1,11 @@
 
 html,
 nav {
-  background-color: #3a3a38;
+  background-color: #FFFFFF;
 }
 body {
   font-family: 'comfortaa', sans-serif;
-  background-color: #3a3a38;
+  background-color: #FFFFFF;
   text-align: right;
 }
 
@@ -20,7 +20,7 @@ body {
   position: fixed;
   text-align: right;
   width: 100%;
-  background-color: #3a3a38;
+  background-color: #FFFFFF;
   background: rgba(58,58,56,255);
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em;
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #3a3a38;
+  color: #FFFFFF;
   text-decoration: none;
 }
 nav ul li a:hover {
@@ -44,7 +44,7 @@ nav ul li a:hover {
 #welcome-section {
   top: 20;
   line-height: 1.6;
-  background: #3a3a38;
+  background: #FFFFFF;
   min-height: 55vh;
   padding-top: 45vh;
   text-align:
